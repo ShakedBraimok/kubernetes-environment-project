@@ -1,0 +1,27 @@
+# Terraform variables
+
+aws_region = "us-east-1"
+app_name = "app"
+cluster_name = "app-cluster"
+cluster_version = "1.28"
+vpc_cidr = "10.0.0.0/16"
+enable_cluster_autoscaler = true
+enable_metrics_server = true
+enable_aws_load_balancer_controller = true
+enable_external_dns = false
+enable_kubernetes_dashboard = false
+enable_example_app = false
+system_node_instance_types = null
+system_node_desired_size = 2
+system_node_min_size = 1
+system_node_max_size = 4
+app_node_instance_types = null
+app_node_desired_size = 2
+app_node_min_size = 1
+app_node_max_size = 10
+app_node_capacity_type = "SPOT"
+admin_role_arns = null
+admin_user_arns = null
+developer_role_arns = null
+route53_zone_id = ""
+enable_container_insights = false
