@@ -1,0 +1,15 @@
+{
+  "name": "eks-ready-app",
+  "version": "1.0.0",
+  "description": "Example application for EKS Ready template",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": ["eks", "kubernetes", "senora"],
+  "author": "Senora.dev",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
